@@ -28,7 +28,7 @@ try:
 except ImportError:
     pexpect = None
 
-from .base import Base
+from deoplete.base.source import Base
 
 TYPES = {
     'skProc': ['p', 'Function'],
